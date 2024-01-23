@@ -32,10 +32,11 @@ This project allows you to transcribe broken audio parts in parallel from a vide
    
 ```
 python main.py
+```
 
 After the code finishes execution, you will find the closed captions saved in the specified output_file.
 
-Advanced Usage
+## Advanced Usage
 If you want to customize the behavior further, you can modify the code in the respective files:
 transcription.py: Contains the audio transcription logic.
 utils.py: Includes utility functions for file handling and video splitting.
