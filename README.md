@@ -18,18 +18,19 @@ This project allows you to transcribe broken audio parts in parallel from a vide
 
    ```bash
    pip install -r requirements.txt
+   ```
 
 
-
-   Usage
-Place your video file in the project directory.
-Open the main.py file and modify the following variables according to your requirements:
-video_path: Path to your video file.
-num_workers: Number of workers for parallel processing (adjust based on your system's capabilities).
-silence_threshold: Silence threshold for splitting the video (adjust based on your video's audio characteristics).
-output_file: Path to the output file for closed captions.
-Run the code by executing the following command:
-
+  ## Usage
+1. Place your video file in the project directory.
+2. Open the main.py file and modify the following variables according to your requirements:
+   video_path: Path to your video file.
+   num_workers: Number of workers for parallel processing (adjust based on your system's capabilities).
+   silence_threshold: Silence threshold for splitting the video (adjust based on your video's audio characteristics).
+   output_file: Path to the output file for closed captions.
+3. Run the code by executing the following command:
+   
+```
 python main.py
 
 After the code finishes execution, you will find the closed captions saved in the specified output_file.
